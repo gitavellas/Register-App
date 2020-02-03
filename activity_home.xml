@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3D3D3"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/Welcome_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Welcome"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/home_username"
+        style="FDFDFDt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginEnd="30sp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/home_password"
+        style="FDFDFDt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginEnd="30sp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/home_gender"
+        style="FDFDFDt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginEnd="30sp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/home_phonenumber"
+        style="FDFDFDt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginEnd="30sp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/home_country"
+        style="FDFDFDt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginEnd="30sp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Back_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#4169E1"
+        android:layout_gravity="center"
+        android:layout_marginStart="40sp"
+        android:layout_marginTop="120sp"
+        android:layout_marginEnd="70sp"
+        android:text="KEMBALI KE HALAMAN REGISTER"
+        android:textColor="		#000000"/>
+
+</LinearLayout>
