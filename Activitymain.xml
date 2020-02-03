@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO REGISTRATION GITAVIRAN'aps"
+        android:textColor="	#008080"
+        android:textStyle="bold"
+        android:textSize="@dimen/textSize"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/set_margin_vertical"
+        android:fontFamily="monospace"/>
+
+
+    <TextView
+        android:id="@+id/Username_TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="40sp"
+        android:layout_marginEnd="50sp"
+        android:textColor="	 #D2B48C"
+        android:hint="Username"/>
+
+    <EditText
+        android:id="@+id/Username_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="	 #D2B48C"
+        android:hint="Ketik Username"/>
+
+    <TextView
+        android:id="@+id/Password_TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="0sp"
+        android:layout_marginEnd="50sp"
+        android:textColor="	 #D2B48C"
+        android:hint="Password"/>
+
+    <EditText
+        android:id="@+id/Password_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20sp"
+        android:layout_marginBottom="20sp"
+        android:layout_marginEnd="50sp"
+        android:inputType="textPassword"
+        android:textColor="	 #D2B48C"
+        android:hint="Masukkan Minimal 8 Karakter"/>
+
+    <TextView
+        android:id="@+id/Gender_TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="50sp"
+        android:textColor="	 #D2B48C"
+        android:hint="Gender"/>
+
+    <EditText
+        android:id="@+id/Gender_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20sp"
+        android:layout_marginBottom="20sp"
+        android:layout_marginEnd="50sp"
+        android:textColor="	 #D2B48C"
+        android:hint="Male/Female"/>
+
+    <TextView
+        android:id="@+id/NoHP_TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginStart="20sp"
+        android:layout_marginTop="0sp"
+        android:layout_marginEnd="50sp"
+        android:textColor="	 #D2B48C"
+        android:layout_gravity="center"
+       
+        android:hint="Nomor Telepon"/>
+
+    <EditText
+        android:id="@+id/PhoneNumber_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20sp"
+        android:layout_marginBottom="20sp"
+        android:layout_marginEnd="50sp"
+        android:inputType="number"
+        android:textColor="	 #D2B48C"
+        android:hint="Masukkan Nomor Telepon"/>
+
+    <TextView
+        android:id="@+id/Country_TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="	 #D2B48C"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="0sp"
+        android:layout_marginEnd="50sp"
+        android:hint="Country"/>
+
+    <EditText
+        android:id="@+id/Country_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20sp"
+        android:layout_marginEnd="50sp"
+        android:textColor="	 #D2B48C"
+        android:layout_marginStart="20sp"
+        android:hint="Maukkan Negara Anda"/>
+
+    <Button
+        android:id="@+id/Register_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#632141"
+        android:layout_gravity="center"
+        android:layout_marginStart="140sp"
+        android:layout_marginBottom="60sp"
+        android:layout_marginEnd="40sp"
+        android:text="SUBMIT"
+        android:textColor="#F5DEB3"/>
+
+
+</LinearLayout>
